@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/session_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        tools:text="09/25 1:38"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?android:textColorSecondary"/>
+
+    <TextView
+        android:id="@+id/session_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Total time: 1:20:10"/>
+
+    <TextView
+        android:id="@+id/session_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Steps: 122"/>
+
+    <TextView
+        android:id="@+id/session_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Distance: 1.23kms"/>
+
+</LinearLayout>

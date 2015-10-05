@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sensor Playground</string>
+    <string name="activity_time">Activity time: %s</string>
+    <string name="distance">Distance: %.2fkm</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="steps_count">Steps: %d</string>
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="tap_to_stop_tracking">Tap to stop tracking</string>
+    <string name="title_session_tracker">Activity</string>
+    <string name="title_session_history">History</string>
+    <string name="total_time">Total time: %s</string>
+    <string name="still">Still</string>
+    <string name="walking">Walking</string>
+    <string name="running">Running</string>
+</resources>
